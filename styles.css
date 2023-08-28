@@ -1,0 +1,101 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Banner styles */
+.banner {
+    background-image: url('banner.jfif'); 
+    background-size: cover;
+    background-position: right center;
+    color: white;
+    text-align: left;
+    padding: 150px 0; 
+}
+
+.banner-content {
+    max-width: 800px;
+    margin-left: auto; 
+    text-align: right; 
+}
+
+.banner-text {
+    text-align: left; /* Align text content to the left */
+}
+
+.banner h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn-explore {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-explore:hover {
+    background-color: #555;
+}
+
+/* Sidebar styles */
+.sidebar {
+    background-color: orange;
+    color: white;
+    text-align: center;
+}
+
+.sidebar nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.sidebar h1, .sidebar a {
+    color: white;
+    text-decoration: none;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Additional styling for new products */
+.new-product {
+    /* Apply styles specific to new products here */
+}
+
+.add-to-cart {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Additional styling for new product buttons */
+.new-product .add-to-cart {
+    /* Apply styles specific to new product buttons here */
+}
